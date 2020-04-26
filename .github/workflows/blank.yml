@@ -31,5 +31,5 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-    - name: Deploy to vuepress
-      uses: grasilife/github-pages-deploy-action@v1.2
+    - name: Vuepress deploy
+      uses: jenkey2011/vuepress-deploy@1.0.1
